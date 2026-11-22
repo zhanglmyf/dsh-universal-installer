@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="DSH Universal Installer deployment matrix">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="260" rx="18" fill="url(#bg)" stroke="#e2e8f0"/>
+  <text x="40" y="52" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#0f172a">DSH Universal Installer</text>
+  <text x="40" y="80" font-family="system-ui, sans-serif" font-size="14" fill="#475569">一份配置 · 三种部署方式 · 全平台适配</text>
+
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#334155">
+    <text x="40" y="122" font-weight="600" fill="#0f172a">目标</text>
+    <text x="230" y="122" font-weight="600" fill="#0f172a">Linux</text>
+    <text x="400" y="122" font-weight="600" fill="#0f172a">macOS</text>
+    <text x="570" y="122" font-weight="600" fill="#0f172a">Windows</text>
+
+    <text x="40" y="162">本机 local</text>
+    <text x="40" y="202">局域网 LAN</text>
+    <text x="40" y="242">远程 remote</text>
+
+    <g fill="#059669" font-weight="600">
+      <text x="230" y="162">✓</text><text x="400" y="162">✓</text><text x="570" y="162">✓</text>
+      <text x="230" y="202">✓</text><text x="400" y="202">✓</text><text x="570" y="202">✓</text>
+      <text x="230" y="242">✓</text><text x="400" y="242">✓</text><text x="570" y="242">✓</text>
+    </g>
+  </g>
+
+  <rect x="720" y="110" width="150" height="146" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <text x="795" y="140" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" fill="#64748b">统一执行器</text>
+  <text x="795" y="172" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#4f46e5">Runner</text>
+  <text x="795" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">local / ssh</text>
+  <text x="795" y="222" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#475569">同一份脚本</text>
+  <rect x="720" y="110" width="150" height="6" rx="3" fill="url(#accent)"/>
+</svg>
