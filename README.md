@@ -1,5 +1,6 @@
 # DSH Universal Installer
 
+[![Stars](https://img.shields.io/github/stars/zhanglmyf/dsh-universal-installer?style=social)](https://github.com/zhanglmyf/dsh-universal-installer/stargazers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -133,6 +134,13 @@ DSH_MODE=ssh DSH_HOST=myhost DSH_USER=me python3 deploy.py --config config.json
 - 配置文件含主机信息，建议加入 `.gitignore`，不要提交真实凭证
 - SSH 走密钥认证（`BatchMode=yes`），不处理密码交互
 - API Key 一律通过环境变量或目标机本地文件注入，不写进配置模板
+
+## 相关项目
+
+- [xiaomi-speaker-workbuddy-bridge](https://github.com/zhanglmyf/xiaomi-speaker-workbuddy-bridge) — 把任意小米/小爱音箱接入 AI 语音助手
+- [dsh-universal-installer](https://github.com/zhanglmyf/dsh-universal-installer)**（当前项目）** — 跨平台部署 DeepSeek Harness
+- [dsh-free-model-bridge](https://github.com/zhanglmyf/dsh-free-model-bridge) — 让 DSH 自动加载免费云端模型
+- [lan-transparent-proxy](https://github.com/zhanglmyf/lan-transparent-proxy) — 局域网透明代理一键部署
 
 ## License
 
